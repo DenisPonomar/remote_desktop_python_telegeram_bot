@@ -424,8 +424,8 @@ def _worker(call):
         comand(t, call)
     else:
         comand(call.data, call)
-bot.polling()      
-"""while True:
+    
+while True:
     try:
         sys.stdout.write(("\r"+datetime.datetime.now().strftime("%H:%M:%S")+" Установка соединения...     \n"))
         time.sleep(1)
@@ -435,4 +435,4 @@ bot.polling()
         sys.stdout.write(("\r"+datetime.datetime.now().strftime("%H:%M:%S")+" Не получается соединиться...   "))
         sys.stdout.flush()
         sys.stdout.flush()
-        time.sleep(1)"""
+        time.sleep(1)
